@@ -1,0 +1,86 @@
+.login-form{
+    -fx-background-color:linear-gradient(to bottom right, #d397fa, #8364e8);
+}
+.form4{
+    -fx-background-color:linear-gradient(to top right, white, #8364e8);
+}
+
+.form1 {
+    -fx-background-radius:15px;
+    -fx-background-color:#edacff;
+}
+.form2 {
+
+    -fx-background-color:#edacff;
+}
+
+.form3 {
+    //-fx-background-color:linear-gradient(to top right, white,);
+    -fx-background-color:#fccbff;
+}
+
+.button1{
+    -fx-background-color:transparent; // lam button trong suot
+    -fx-cursor:hand;
+}
+.button2{ // login
+    -fx-background-color:#8364e8;
+    -fx-cursor:hand;
+}
+
+.button3{ // menu chu trang
+    -fx-background-color:#8364e8;
+    -fx-cursor:hand;
+
+}
+.button4{ // menu chu trang co 19
+    -fx-background-color:#8364e8;
+    -fx-cursor:hand;
+    -fx-text-fill: white;
+    -fx-font-size: 19px;
+    -fx-font-weight: bold;
+}
+
+.button5{
+    -fx-background-color:white;
+    -fx-cursor:hand;
+}
+
+.label_white {
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    -fx-text-fill: white;
+}
+.textfield {
+    -fx-background-color: transparent;
+    -fx-text-inner-color: #000000; /* Màu chữ cho text trong textfield */
+    -fx-border-color: #000000; /* Màu viền của textfield */
+    -fx-border-width: 0px 0px 0.4px 0px; /* Độ dày viền, điều chỉnh theo ý muốn */
+    -fx-style-class: black; /* Định dạng thêm nếu cần thiết */
+    -fx-prompt-text-fill: #000;
+}
+
+
+
+.textfield:focused{ // bam vao text field nao thi noi bat text field do
+    -fx-border-width:0px 0px 1px 0px;
+}
+
+
+.login-btn{
+    -fx-background-color:#468ec2;
+    -fx-background-radius:15px;    // nut bam login hinh chu nhat tron
+    -fx-cursor:hand; // kieu chuot
+    -fx-text-fill:#fff; // mau chu
+    -fx-font-size:15px; // font
+}
+
+.login-btn:hover{
+    -fx-background-color:#559bc9;
+}
+
+.image-card{
+     -fx-background-color: white;
+        -fx-border-color:black;
+}
+

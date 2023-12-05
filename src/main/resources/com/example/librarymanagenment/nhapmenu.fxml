@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+
+
+<AnchorPane prefHeight="550.0" prefWidth="856.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.librarymanagenment.login.Nhapmenu">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="550.0" stroke="BLACK" strokeType="INSIDE" width="138.0" />
+      <Circle fill="DODGERBLUE" layoutX="63.0" layoutY="92.0" radius="59.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button layoutX="6.0" layoutY="226.0" mnemonicParsing="false" text="thoong tin ca nhan" />
+      <Button layoutX="21.0" layoutY="275.0" mnemonicParsing="false" text="sach " />
+      <Button layoutX="11.0" layoutY="327.0" mnemonicParsing="false" text="phieu muon sach" />
+      <Button layoutX="5.0" layoutY="379.0" mnemonicParsing="false" text="sach da muon" />
+      <Label layoutX="51.0" layoutY="193.0" text="Label" />
+      <TableView layoutX="355.0" layoutY="77.0" prefHeight="446.0" prefWidth="481.0">
+        <columns>
+          <TableColumn prefWidth="77.5" text="book_id" />
+          <TableColumn prefWidth="145.0" text="Title" />
+            <TableColumn prefWidth="89.5" text="Author" />
+            <TableColumn prefWidth="55.5" text="NXB" />
+            <TableColumn prefWidth="65.0" text="chu_de" />
+            <TableColumn minWidth="3.0" prefWidth="48.0" text="avail" />
+        </columns>
+      </TableView>
+      <Line endX="499.0" layoutX="302.0" layoutY="56.0" startX="-100.0" />
+      <Label layoutX="725.0" layoutY="24.0" text="Label" />
+      <ImageView fitHeight="203.0" fitWidth="152.0" layoutX="170.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="232.0" layoutY="300.0" text="thong tin sach" />
+   </children>
+</AnchorPane>
